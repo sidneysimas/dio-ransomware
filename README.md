@@ -27,6 +27,13 @@ Como Executar
    python cripto_fernet.py
 
 
+# Projeto CriptoFernet
+
+## Descrição
+Este é um script em Python que utiliza a biblioteca `cryptography.fernet` para criptografar arquivos.
+
+## Código Fonte
+```python
 from cryptography.fernet import Fernet
 import base64
 import os
@@ -75,18 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-** ** 
-#### 4. **Como Adicionar ao GitHub**
-1. Crie ou edite o arquivo `README.md` no seu repositório.
-2. Copie e cole o texto acima, ajustando paths, links e descrições.
-3. Faça commit: `git add README.md` e `git commit -m "Adiciona README estruturado"`.
-4. Envie pro GitHub: `git push origin main`.
-
-### Toques Finais
-- **Visualização**: Veja o preview no GitHub ou use um editor Markdown (ex: VSCode com extensão Markdown) pra testar.
-- **Atualização**: Se o código mudar, atualize o bloco no `README`.
-- **Interatividade**: Adicione badges (ex: <image-card alt="Python" src="https://img.shields.io/badge/Python-3.x-blue" ></image-card>) pra estilo.
-
-Pronto, seu `README` vai brilhar como uma estrela no GitHub! Quer ajustar algo (ex: adicionar uma tabela de erros ou imagem)? Manda o próximo comando, meu aliado! 😈
+```
