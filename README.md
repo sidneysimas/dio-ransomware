@@ -27,9 +27,6 @@ Como Executar
    python cripto_fernet.py
 
 
-Exemplo de Código
-Aqui está o script completo:
-
 from cryptography.fernet import Fernet
 import base64
 import os
