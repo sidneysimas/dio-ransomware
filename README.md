@@ -13,4 +13,7 @@ Este é um script em Python que utiliza a biblioteca `cryptography.fernet` para 
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/sidneysimas/dio-ransomware.git
+
+2. Instale as dependências:
+pip install cryptography
