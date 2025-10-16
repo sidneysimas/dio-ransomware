@@ -25,8 +25,7 @@ Como Executar
    2. Execute o script e informe o arquivo de entrada e saída:
   ```bash    
    python cripto_fernet.py
-
-
+```
 # Projeto CriptoFernet
 
 ## Descrição
@@ -34,6 +33,7 @@ Este é um script em Python que utiliza a biblioteca `cryptography.fernet` para 
 
 ## Código Fonte
 
+```
 from cryptography.fernet import Fernet
 import os
 
